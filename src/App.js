@@ -33,7 +33,7 @@ function App() {
           })
         )
       } else {
-        // User is signed out
+        // Signed out part for the user
         dispatch(logout())
       }
     })
